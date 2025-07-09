@@ -43,6 +43,39 @@ You entered an invalid number!
 
 
 ## Calculate Roots
+The roots of a quadratic equation are the values of `x` at which the equation evaluates to `0`. The well-known quadratic formula is often used to find these roots. Write a program named `calculate_roots.py` that takes as input the coefficients `A`, `B`, and `C` and outputs the roots of that equation. Be aware of the following:
+- Use the output format shown below
+- If the roots have an imaginary component (complex), use `i` when representing the imaginary term in the output. For example, you may output `3.0 + 7.0i` as a root.
+- Be sure to handle the cases in which any or all coefficients are equal to zero
+  - If `A != 0`, there could be 2 real distinct roots, 2 real identical roots (one root of multiplicity 2), or 2 complex roots
+    - If there are two roots, output the larger root first
+  - If `A = 0`, we are left with $$Bx+C=0$$, a linear equation with one root
+  - If `A = B = 0`, we are left with $$C = 0$$, so if the user entered a non-zero value of `C`, write a message to the screen indicating this error
+
+Example output (using inputs `1`, `2`, `1`):
+```
+Please enter the coefficient A: 1
+Please enter the coefficient B: 2
+Please enter the coefficient C: 1
+The root is x = -1.0
+```
+
+Example output (using inputs `1`, `2`, `-3`):
+```
+Please enter the coefficient A: 1
+Please enter the coefficient B: 2
+Please enter the coefficient C: -3
+The roots are x = 1.0 and x = -3.0
+```
+
+Example output (using inputs `0`, `0`, `1`):
+```
+Please enter the coefficient A: 0
+Please enter the coefficient B: 0
+Please enter the coefficient C: 1
+You entered an invalid combination of coefficients!
+```
+
 
 ## Frequently Asked Questions
 1. **Activity 2 (how many gadgets) I want to use a loop. Can I use a loop?** No! You don't need to use a loop. That's why you can do this problem even though we haven't learned about loops. A loop is actually *inefficient* for solving this problem. **But how do I solve it without a loop?** Short answer: Write a mathematical equation for the number of gadgets produced for any given day. Long answer: Draw a graph with the gadgets/day on the y axis and days on the x axis. You have 3 parts to this graph: the square part for the first 10 days, the trapezoid part for days 11 to 50, and the rectangle part for days 51 to 100. How many gadgets have you made at the end of day 3? That's 10 gadgets/day times 3 days, so 30. Oh wait, that's the area under the curve from day 1 to day 3. Hmm... so if I want to know how many gadgets have been produced at the end of day 15, I can take the area under the curve for the first part (`10 * 10 = 100`) and add the area under the curve for days 11 through 15. The area of a trapezoid is $$\frac{1}{2}(b_1 + b_2)h$$. Think of it as a trapezoid on its side...
