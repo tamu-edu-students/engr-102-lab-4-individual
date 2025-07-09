@@ -1,12 +1,23 @@
 # ENGR 102 Lab Topic 4 (individual)
 
 ## Activities
+This lab consists of three individual activities, and an optional bonus activity. Please submit the following files to Gradescope. Check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files.**
 
 1. [Largest Number](#largest-number)
 2. [How Many Gadgets](#how-many-gadgets)
 3. [Calculate Roots](#calculate-roots)
 
 ## Largest Number
+Using conditional statements (i.e. statements like `if-elif-else`) write a program named `largest_number.py` that takes as input from the user three (3) numbers from the keyboard and prints the value of the largest number. Your code should output in the format shown below.
+
+Example output (using inputs `1`, `2`, `3`):
+```
+Enter number 1: 1
+Enter number 2: 2
+Enter number 3: 3
+The largest number is 3.0
+```
+
 
 ## How Many Gadgets
 
