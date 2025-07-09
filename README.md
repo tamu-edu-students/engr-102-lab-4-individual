@@ -20,6 +20,27 @@ The largest number is 3.0
 
 
 ## How Many Gadgets
+Assume a machine during its initial testing phase produces 10 gadgets a day. After 10 days of testing (starting on day 11), it begins to ramp up, producing 1 more gadget per day (11 gadgets on day 11, 12 on day 12, etc). On day 50 it reaches full speed, where it continues to run until on day 101 it stops producing gadgets. Write a program named `how_many_gadgets.py` that reads in a day (as a number) from the keyboard and reports the total number of gadgets produced from the initial testing phase up to and including the day entered. For example, entering 3 would report 30 gadgets.
+
+Your code should also...
+- Check for inappropriate day numbers and message the user accordingly
+- Echo the input in the output when you report the number of gadgets
+- Use the output format shown below
+
+**Note**: Do **NOT** use a loop. Part of the challenge in this program is for YOU to work out the model for how to compute gadgets produced in total, given the above information. **Hint**: Solve this problem by hand on paper first, then translate your solution to Python. **A graph or diagram is extremely helpful.** This approach is much easier than debugging some lousy Python code written before you understand the problem.
+
+Example output (using input `3`):
+```
+Please enter a positive value for day: 3
+The sum total number of gadgets produced on day 3 is 30
+```
+
+Example output (using input `-1`):
+```
+Please enter a positive value for day: -1
+You entered an invalid number!
+```
+
 
 ## Calculate Roots
 
