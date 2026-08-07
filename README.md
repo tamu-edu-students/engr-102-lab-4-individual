@@ -84,9 +84,9 @@ You entered an invalid combination of coefficients!
 
 3. **Activity 3 (calculate roots) I have no idea what I'm doing. Help?** When you have a quadratic equation (`A != 0`) you can calculate the root(s) with the quadratic formula. Do you remember the name of the part under the square root? That's right, it's the discriminant. You have 3 possibilities for this number. It can be positive (2 real roots), zero (2 real identical roots), or negative (2 complex roots). You may want to use an `if-elif-else` statement to account for these possibilities.
 
-4. **Activity 3 (calculate roots) how do I display a complex number?** You don't actually have to bother with python's complex numbers. Instead, use string formatting to display it correctly. Calculate the real `-b/(2a)` and imaginary `sqrt(|b^2-4ac|)/(2a)` parts of the number separately. Then use string concatenation to put the pieces together with an `i` attached to the imaginary part.
+4. **Activity 3 (calculate roots) how do I display a complex number?** You don't actually have to bother with python's complex numbers. Instead, use string formatting to display it correctly. Calculate the real `-b/(2a)` and imaginary `sqrt(|b^2-4ac|)/(2a)` parts of the number separately. Then use string concatenation or f-strings to put the pieces together with an `i` attached to the imaginary part.
 
 Have a question you don't see here? Email your instructor!
 
 Based upon Dr. Keyser’s Original<br/>
-Revised Summer 2025 SNR
+Revised Summer 2026 SNR
