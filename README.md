@@ -1,7 +1,7 @@
 # ENGR 102 Lab Topic 4 (individual)
 
 ## Activities
-This lab consists of three individual activities, and an optional bonus activity. Please submit the following files to Gradescope. Check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files.**
+This lab consists of three individual activities. Please submit the following files to Gradescope. Check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files.**
 
 1. [Largest Number](#largest-number)
 2. [How Many Gadgets](#how-many-gadgets)
