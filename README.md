@@ -43,7 +43,7 @@ You entered an invalid number!
 
 
 ## Calculate Roots
-The roots of a quadratic equation are the values of `x` at which the equation evaluates to `0`. The well-known quadratic formula is often used to find these roots. Write a program named `calculate_roots.py` that takes as input the coefficients `A`, `B`, and `C` and outputs the roots of that equation. Be aware of the following:
+The roots of a quadratic equation of the form `Ax^2 + Bx + C = 0` are the values of `x` at which the equation evaluates to `0`. The well-known quadratic formula is often used to find these roots. Write a program named `calculate_roots.py` that takes as input the coefficients `A`, `B`, and `C` and outputs the roots of that equation. Be aware of the following:
 - Use the output format shown below
 - If the roots have an imaginary component (complex), use `i` when representing the imaginary term in the output. For example, you may output `3.0 + 7.0i` as a root.
 - Be sure to handle the cases in which any or all coefficients are equal to zero
